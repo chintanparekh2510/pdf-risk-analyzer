@@ -132,9 +132,9 @@ class SimpleDocumentAnalyzer:
                 date_pattern = r'\b(?:\d{1,2}[-/]\d{1,2}[-/]\d{2,4}|\d{4}[-/]\d{1,2}[-/]\d{1,2}|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* \d{1,2},? \d{4})\b'
                 dates_found = re.findall(date_pattern, full_text, re.IGNORECASE)
                 
-                # Find email addresses
-                email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
-                emails_found = re.findall(email_pattern, full_text)
+                # Find social media handles
+                social_pattern = r'@[\w]+'
+                social_handles = re.findall(social_pattern, full_text)
                 
                 # Check for signatures
                 signature_indicators = ['signature', 'signed by', 'authorized signature', '/s/', 'by:', 'name:']
@@ -148,7 +148,7 @@ class SimpleDocumentAnalyzer:
                     'keyword_breakdown': keyword_counts,
                     'monetary_amounts': monetary_amounts[:10],  # Top 10
                     'dates_found': dates_found[:10],  # Top 10
-                    'emails_found': emails_found[:5],  # Top 5
+                    'social_handles': social_handles[:5],  # Top 5
                     'signature_indicators': signature_count,
                     'high_risk_sections': self.find_high_risk_sections(full_text)
                 }

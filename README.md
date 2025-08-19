@@ -123,6 +123,10 @@ self.visual_patterns = {
 
 Feel free to submit issues and enhancement requests!
 
+## 👨‍💻 Author
+
+Created by [@ChintanParekhAI](https://x.com/ChintanParekhAI)
+
 ## 📄 License
 
 MIT License - feel free to use in your projects! 
