@@ -1,0 +1,13 @@
+# Core PDF processing
+PyPDF2==3.0.1
+pdf2image==1.16.3
+
+# Image processing and computer vision  
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Note for Windows users:
+# You need to install poppler for pdf2image to work:
+# Download from: https://github.com/oschwartz10612/poppler-windows/releases/
+# Extract and add the bin folder to your PATH 

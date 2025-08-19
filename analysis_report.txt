@@ -1,0 +1,65 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║            DOCUMENT RISK ANALYSIS REPORT                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+📄 Document: test_document.pdf
+📅 Analysis Date: 2025-08-19
+
+═══════════════════════════════════════════════════════════════
+                    RISK ASSESSMENT SUMMARY
+═══════════════════════════════════════════════════════════════
+
+🎯 Overall Risk Level: LOW (33/100)
+
+📊 Risk Breakdown:
+   • Keyword Risk:     20/40
+   • Financial Risk:   5/30
+   • Compliance Risk:  8/20
+   • Signature Risk:   0/10
+
+═══════════════════════════════════════════════════════════════
+                    DOCUMENT METADATA
+═══════════════════════════════════════════════════════════════
+
+📋 Document Properties:
+   • Pages: 2
+   • Author: anonymous
+   • Created: 2025-08-19 15:15:08
+   • Modified: 2025-08-19 15:15:08
+   • Encrypted: False
+
+═══════════════════════════════════════════════════════════════
+                    TEXT ANALYSIS RESULTS
+═══════════════════════════════════════════════════════════════
+
+📊 Content Statistics:
+   • Total Words: 213
+   • Risk Keywords Found: 10
+   • Signature Indicators: 1
+
+🔑 Top Risk Keywords:
+   • liability: 2 occurrences
+   • termination: 2 occurrences
+   • confidential: 2 occurrences
+   • penalty: 1 occurrences
+   • breach: 1 occurrences
+
+💰 Financial Exposures:
+   • $97,000
+
+⚠️ High Risk Sections: 2 found
+
+═══════════════════════════════════════════════════════════════
+                    RECOMMENDATIONS
+═══════════════════════════════════════════════════════════════
+
+✅ LOW RISK: Document appears standard, but always review before signing
+🛡️ Indemnification clauses present - review liability exposure
+🚪 Review termination clauses and exit strategies
+🔒 Confidentiality obligations present - ensure compliance capability
+
+═══════════════════════════════════════════════════════════════
+
+📌 Note: This is an automated analysis. Always consult with
+   qualified professionals for final decision-making.
