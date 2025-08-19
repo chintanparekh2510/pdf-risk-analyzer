@@ -24,8 +24,8 @@ The analyzer can detect:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/chintanparekh2510/multimodal-document-analyzer.git
-cd multimodal-document-analyzer
+git clone https://github.com/chintanparekh2510/pdf-risk-analyzer.git
+cd pdf-risk-analyzer
 ```
 
 2. Install Python dependencies:
